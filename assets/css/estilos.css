@@ -9,6 +9,10 @@
     
 }
 
+#body {
+    background-color: #000000;
+}
+
 #a {
     font-family: raleway ;
     font-size: 37px;
@@ -16,15 +20,31 @@
     padding-left: 50px;
 }
 
+.text {
+    color: white;
+}
+
+.card {
+    border: none;
+  }
+  
 .container {
-    padding-top: 20px;
+    background-color: #000000;
     font-family: cabin;
    
+}
+
+.container_h1 {
+    background-color: #000000;
 }
 
 .col {
     text-align: left;
     font-family: Cabin;
+}
+
+.card-body01 {
+    background-color:deepskyblue;
 }
 
 #h2 {
