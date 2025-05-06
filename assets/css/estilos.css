@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Lobster&family=National+Park:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+#div {
+    justify-content: end;
+    padding-right: 50px;
+    
+}
+
+.background-image {
+    background-image: ; /* Reemplázalo con tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+  }
+
+
+#a {
+    font-family: lobster ;
+    font-size: 37px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.container {
+    padding-top: 20px;
+    font-family: cabin;
+   
+}
+
+.col {
+    text-align: left;
+    font-family: Cabin;
+}
+
+#h2 {
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+#div{
+    font-family: cabin;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: #373A3C;
+}
+
+
+.carousel-indicators .active {
+    background-color: #000000;
+}
+
+.card-body1 {
+    background-color: #DC3545;
+    font-family: cabin;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.card-title0 {
+    font-size: 40px;
+    color: #ffff;
+}
+
+.card-title1 {
+    font-size: 30px;
+    color: #ffff;
+   
+
+}
+
+.card-title2 {
+    font-size: 30px;
+    font-family: lobster;
+    color: #ffff;
+    
+}
+
+.footer {
+    font-family: lobster;
+    font-size: 37px;
+}
+
+.d-grid {
+    padding-bottom: 100px;
+}
+
+#button1 {
+    padding-left: 50px;
+}
+
+.card-title {
+    padding-top: 20px;
+}
