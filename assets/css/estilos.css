@@ -47,10 +47,6 @@
     background-color:deepskyblue;
 }
 
-#h2 {
-    padding-top: 50px;
-    padding-right: 200px;
-}
 
 #div{
     font-family: cabin;
@@ -73,24 +69,7 @@
     padding-top: 50px;
 }
 
-.card-title0 {
-    font-size: 40px;
-    color: #ffff;
-}
 
-.card-title1 {
-    font-size: 30px;
-    color: #ffff;
-   
-
-}
-
-.card-title2 {
-    font-size: 30px;
-    font-family: lobster;
-    color: #ffff;
-    
-}
 
 .footer {
     font-family: lobster;
@@ -105,6 +84,16 @@
     padding-left: 50px;
 }
 
-.card-title {
-    padding-top: 20px;
-}
+.card {
+    display: block !important;
+  }
+  
+  @media (max-width: 768px) {
+    .d-none.d-md-block {
+      display: none;
+      height: 0 !important;
+      margin-bottom: 0 !important;
+      padding-bottom: 0 !important;
+    }
+  }
+  
