@@ -2,22 +2,25 @@
 
 
 
-
+/* ajustes nav  */
 #div {
     justify-content: end;
     padding-right: 50px;
     
 }
 
+/* ajustes body */
 #body {
     background-color: #000000;
+    font-family: cabin;
 }
 
+/* ajustes varios para distintos elementos del contenido  */
 #a {
-    font-family: raleway ;
-    font-size: 37px;
+    font-family: cabin ;
+    font-size: 35px;
     text-align: center;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .text {
@@ -26,10 +29,13 @@
 
 #h1 {
     font-family: cabin;
+    font-size: 30px;
+    padding-top: 30px;
 }
 
 #h2 {
   font-family: cabin;
+  font-size: 30px;
 }
 
 
@@ -69,8 +75,11 @@
 
 .card {
     display: block !important;
+    background-color: deepskyblue;
   }
-  
+
+
+  /* se utilo para ajustar posición y tamaño de cards seccion destacados  */
   @media (max-width: 768px) {
     .d-none.d-md-block {
       display: none;

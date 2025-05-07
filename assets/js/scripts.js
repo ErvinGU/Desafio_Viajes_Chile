@@ -10,7 +10,7 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
 
 
 
-//se aplica desplazamiento suave
+//se aplica desplazamiento suave para saltar entre secciones
 $(document).ready(function () {
     $(".nav-link").on("click", function (event) {
         if (this.hash !== "") {
@@ -24,7 +24,7 @@ $(document).ready(function () {
 });
 
 
-//Enviar Correo
+//Enviar Correo y generar mensaje de envío correcto
 $(document).ready(function () {
     $('[data-bs-toggle="tooltip"]').tooltip();
   });
@@ -36,7 +36,7 @@ $('.btn').click(function () {
 
 })
 
-  //Ocultar información
+  //Ocultar información sección destacados
 
   $("#titulo").click(function () {
     $("#texto").toggle();
