@@ -139,17 +139,17 @@
               <div class="card">
                   <img src="./assets/img/card1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title font-weight-bold">Lorem ipsum dolor sit amet.</h5>
-                    <p class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
+                    <h5 id="titulo" class="card-title font-weight-bold" onclick="alternarTexto()">Lorem ipsum dolor sit amet.</h5>
+                    <p id="texto" class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
                   </div>
               </div>
           </div>
           <div class="col">
               <div class="card">
-                  <img src="./assets/img/card2.jpg" height="208px" class="card-img-top" alt="...">
+                  <img src="./assets/img/card2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title font-weight-bold">Lorem ipsum dolor sit amet.</h5>
-                    <p class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
+                    <h5 id="titulo1" class="card-title font-weight-bold" onclick="alternarTexto()">Lorem ipsum dolor sit amet.</h5>
+                    <p id="texto1" class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
                   </div>
               </div>
           </div>
@@ -157,8 +157,8 @@
               <div class="card">
                   <img src="./assets/img/card3.jpg" class="card-img-top" alt="...">
                    <div class="card-body">
-                    <h5 class="card-title font-weight-bold">Lorem ipsum dolor sit amet.</h5>
-                    <p class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
+                    <h5 id="titulo2" class="card-title font-weight-bold" onclick="alternarTexto()">Lorem ipsum dolor sit amet.</h5>
+                    <p id="texto2" class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
                   </div>
               </div>
           </div>
@@ -166,9 +166,9 @@
             <div class="card">
                 <img src="./assets/img/card4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title font-weight-bold">Lorem ipsum dolor sit amet.</h5>
-                  <p class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
-                </div>
+                  <h5 id="titulo3" class="card-title font-weight-bold" onclick="alternarTexto()" >Lorem ipsum dolor sit amet.</h5>
+                  <p id="texto3" class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo consequuntur sed sequi consequatur et exercitationem molestias?</p>
+                </div> 
             </div>
         </div>
       </div>
@@ -193,7 +193,7 @@
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
 
-    <button type="button" class="btn btn-primary my-4">Enviar</button>
+    <button type="button" class="btn btn-primary my-4" data-bs-toggle="tooltip" data-bs-title="Presiona para enviar" >Enviar</button>
   </section>
 
   <footer class="footer">

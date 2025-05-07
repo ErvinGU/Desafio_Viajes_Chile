@@ -23,3 +23,39 @@ $(document).ready(function () {
     });
 });
 
+
+//Enviar Correo
+$(document).ready(function () {
+    $('[data-bs-toggle="tooltip"]').tooltip();
+  });
+
+
+$('.btn').click(function () {
+
+    alert("Correo enviado correctamente")
+
+})
+
+  //Ocultar información
+
+  $("#titulo").click(function () {
+    $("#texto").toggle();
+});
+
+$("#titulo1").click(function () {
+    $("#texto1").toggle();
+});
+
+
+$("#titulo2").click(function () {
+    $("#texto2").toggle();
+});
+
+
+$("#titulo3").click(function () {
+    $("#texto3").toggle();
+});
+
+
+
+
