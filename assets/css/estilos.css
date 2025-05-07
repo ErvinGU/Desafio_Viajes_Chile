@@ -72,19 +72,10 @@
     background-color: #000000;
 }
 
-.card-body1 {
-    background-color: #DC3545;
-    font-family: cabin;
-    font-size: 30px;
-    padding-top: 50px;
-}
 
 
 
-.footer {
-    font-family: cabin;
-    font-size: 37px;
-}
+
 
 .d-grid {
     padding-bottom: 100px;
@@ -107,12 +98,18 @@
     }
   }
 
+
+  /*css footer*/
+
+
   .footer {
     background-color: deepskyblue;
     padding: 20px;
+    font-family: cabin;
+    font-size: 37px;
   }
   
-  .footer-title {
+  .footer-titulo {
     color: white;
     font-weight: bold;
     margin: 0;
