@@ -24,6 +24,12 @@
     color: white;
 }
 
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+  }
+  
+
 .card {
     border: none;
   }
@@ -72,7 +78,7 @@
 
 
 .footer {
-    font-family: lobster;
+    font-family: cabin;
     font-size: 37px;
 }
 
@@ -95,5 +101,9 @@
       margin-bottom: 0 !important;
       padding-bottom: 0 !important;
     }
+  }
+
+  .bottons {
+    text-align: end;
   }
   
