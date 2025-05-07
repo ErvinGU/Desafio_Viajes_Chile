@@ -28,6 +28,11 @@
     font-family: cabin;
 }
 
+#h2 {
+  font-family: cabin;
+}
+
+
 .card-img-top {
     height: 200px; 
     object-fit: cover;
@@ -57,29 +62,6 @@
     background-color:deepskyblue;
 }
 
-
-#div{
-    font-family: cabin;
-}
-
-
-.carousel-indicators [data-bs-target] {
-    background-color: #373A3C;
-}
-
-
-.carousel-indicators .active {
-    background-color: #000000;
-}
-
-
-
-
-
-
-.d-grid {
-    padding-bottom: 100px;
-}
 
 #button1 {
     padding-left: 50px;
